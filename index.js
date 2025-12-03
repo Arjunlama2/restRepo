@@ -470,23 +470,33 @@ let persons = [
 
 // console.log(newmarks)
 
-marks=[1,2,2,1,3,,5,3]
+// marks=[1,2,2,1,3,,5,3]
 
-const reducedvalue=marks.reduce((acum,el)=>{
-acum[`${el}`]=(acum[el] || 0) + 1;
-return acum
-},{})
+// const reducedvalue=marks.reduce((acum,el)=>{
+// acum[`${el}`]=(acum[el] || 0) + 1;
+// return acum
+// },{})
 
-console.log(reducedvalue)
-const arrays = [
-  [1, 2],
-  [3, 4],
-  [5, 6]
-];
+// console.log(reducedvalue)
+// const arrays = [
+//   [1, 2],
+//   [3, 4],
+//   [5, 6]
+// ];
 
 
-const merged = arrays.reduce((acc, arr) => {
-    return acc.concat(arr)
-}, []);
+// const merged = arrays.reduce((acc, arr) => {
+//     return acc.concat(arr)
+// }, []);
 
-console.log(merged)
+// console.log(merged)
+
+
+// git init
+// git add origin link
+// git status
+// git add .
+// git status / output all files green
+// git commit -m "message" // this meSSAGE is important
+// git push / they asked us to set stream origin main
+// 
