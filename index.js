@@ -456,7 +456,7 @@ let persons = [
 
 
 // console.log(newpassmarks)
-
+// toDateString
 
 
 
@@ -500,3 +500,46 @@ let persons = [
 // git commit -m "message" // this meSSAGE is important
 // git push / they asked us to set stream origin main
 // 
+
+
+
+// Math.round(4.4)  // 4
+// Math.round(4.5)  // 5
+
+// let randamNUm=Math.random()
+// let finalRandam=randamNUm*10000
+// console.log(finalRandam)
+
+
+// console.log(Math.sqrt(49))
+
+
+
+
+
+
+
+// oop
+// pop
+
+
+
+// let today = new Date();
+// console.log(today);
+// let date=new Date().toLocaleTimeString();
+
+// console.log(date)
+
+
+function getDataFromHtml(event) {
+  event.preventDefault();
+
+  let firstName = event.target.firstName.value;
+  let lastName = event.target.lastName.value;
+
+  console.log(firstName,lastName); 
+
+   
+  document.getElementById("answer").innerHTML=`<p>${firstName} ${lastName}</p>`
+}
+

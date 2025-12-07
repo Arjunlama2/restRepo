@@ -6,13 +6,30 @@
     <title>Java Script</title>
   </head>
   <body>
-    <h1>My First JavaScript</h1>
+    <h1 id="text">My First JavaScript</h1>
     <p>
       JavaScript is a programming language that can update and change both HTML
       and CSS
     </p>
+    <form action="" onsubmit="getDataFromHtml(event)">
+      <div>
+        <div>
+          <label for=""> Enter First Work</label>
+          <input type="text" name="task" id="" />
+        </div>
+        <!-- <div>
+          <label for=""> Enter Last Name</label>
+          <input type="text" name="lastName" id="" />
+        </div> -->
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+
+
+    <div id="answer">
+    
+    </div>
   </body>
 
   <script src="./index.js"></script>
-
 </html>
