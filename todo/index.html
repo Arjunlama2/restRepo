@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=delete" />
+    <title>TO DO Application</title>
+  </head>
+  <body>
+    <p>Today's ToDo List</p>
+
+    <form onsubmit="HandleTaskAdd(event)">
+      <div>
+        <label for="">Your Task</label>
+        <input type="search" id="taskInput" name="task" />
+        <button type="submit">Add Task</button>
+      </div>
+    </form>
+
+    <ul id="taskList">
+  
+    </ul>
+  </body>
+  <script src="./index.js"></script>
+</html>
